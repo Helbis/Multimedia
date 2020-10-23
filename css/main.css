@@ -1,0 +1,9 @@
+body{
+	background-color: #93ff28;
+	display: grid;
+}
+
+h1{
+	border-radius: 3rem;
+	border-style: groove;
+}
