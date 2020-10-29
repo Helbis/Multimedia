@@ -1,78 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Stud 001 - Filip Helbig ✋</title>
 
-	<!-- Meta info -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Meta info -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-	<link rel="manifest" href="./favicon/site.webmanifest">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
 
-	<!-- Styles -->
-	<link rel="stylesheet" href="./css/main.css">
+  <!-- Styles -->
+	<link rel="stylesheet" href="./css/small_screen.css">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="./css/main.css">
+	<link rel="stylesheet" media="screen and (min-width: 1400px)" href="./css/big_screen.css">
+	<!-- Styles with hovering -->
+	<link rel="stylesheet" media="screen and hover" href="./css/hoverable/small_screen_has_cursor.css">
+	<link rel="stylesheet" media="screen and hover and (min-width: 900px)" href="./css/hoverable/main_screen_has_cursor.css">
+	<link rel="stylesheet" media="screen and hover and (min-width: 1400px)" href="./css/hoverable/big_screen_has_cursor.css">
 
-
-	<!-- <script>
-    Object.defineProperty(screen, "availTop", {
-      value: 0
-    });
-    Object.defineProperty(screen, "availLeft", {
-      value: 0
-    });
-    Object.defineProperty(screen, "availWidth", {
-      value: 1920
-    });
-    Object.defineProperty(screen, "availHeight", {
-      value: 1080
-    });
-    Object.defineProperty(screen, "colorDepth", {
-      value: 24
-    });
-    Object.defineProperty(screen, "pixelDepth", {
-      value: 24
-    });
-    Object.defineProperty(navigator, "hardwareConcurrency", {
-      value: 8
-    });
-    Object.defineProperty(navigator, "userAgent", {
-      value: "Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0"
-    });
-    Object.defineProperty(navigator, "appVersion", {
-      value: "5.0 (X11)"
-    });
-    Object.defineProperty(navigator, "doNotTrack", {
-      value: "unspecified"
-    });
-    window.screenY = 0
-    window.screenTop = 0
-
-    try {
-      window.top.window.outerHeight = window.screen.height
-    } catch (e) {}
-
-    window.screenX = 0
-    window.screenLeft = 0
-
-    try {
-      window.top.window.outerWidth = window.screen.width
-    } catch (e) {}
-  </script> -->
 </head>
 
 <body>
-
-  <h1>Stud 001 - Filip Helbig</h1>
-
-  <h2>Curricuum Vitae</h2>
-  <p>Student at IFE</p>
-
-	<h2>After work </h2>
-  <p>Projektowanie Internetowych Interfejsów Systemów Bazodanowych</p>
+  <div class="grid-container">
+    <div class="grid-item gi_1">
+			<img class="profilePic" src="./sources/profilowe_calpe.jpg" alt="Profile Photo taken in Spain, Calpe">
+		</div>
+		<div class="grid-item gi_2">B</div>
+    <div class="grid-item gi_3">C</div>
+    <div class="grid-item gi_4">D</div>
+    <div class="grid-item gi_5">E</div>
+    <div class="grid-item gi_6">F</div>
+    <div class="grid-item gi_7">G</div>
+    <div class="grid-item gi_8">H</div>
+    <div class="grid-item gi_9">I</div>
+  </div>
 
 </body>
+
 </html>

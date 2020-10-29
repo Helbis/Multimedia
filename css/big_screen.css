@@ -14,9 +14,9 @@ h1{
 	background-color: black;
 
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 
-	max-width: 50rem;
+	max-width: 80rem;
 	height: 100vh;
 
   margin: auto;

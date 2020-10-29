@@ -1,0 +1,6 @@
+.grid-item:hover{
+	background-color: #dc00ff;
+
+	border: none;
+	border-radius: 0;
+}

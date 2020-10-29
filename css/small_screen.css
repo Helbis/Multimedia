@@ -14,6 +14,7 @@ h1{
 	background-color: black;
 
 	display: grid;
+/* 	grid-template-columns: repeat(1, 1fr); */
 	grid-template-columns: repeat(3, 1fr);
 
 	max-width: 50rem;
@@ -21,6 +22,9 @@ h1{
 
   margin: auto;
 	padding: 0;
+
+	justify-content: center;
+
 }
 
 .grid-item{
@@ -29,22 +33,32 @@ h1{
 	border: black thin dashed;
 	border-radius: 0.5rem;
 
-	margin: 1rem;
-	padding: 1rem;
+	grid-row-gap: 10rem;
+	grid-column-gap: 2rem;
+	margin: 0;
+	padding: 0;
 
 	justify-content: center;
 	align-content: center;
 	text-align: center;
 }
 
-.grid-item:hover{
-	background-color: #dc00ff;
+.gi_1{
+	grid-row: 1;
+	grid-column: 1 / 3;
 
-	border: none;
-	border-radius: 0;
+	max-width: 10rem;
+	height: auto;
+
+	margin: 0;
+	padding: 0;
 }
 
-.gi_1{
-	grid-row: 1 / 3;
-	grid-column: 1 / 3;
+.profilePic{
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+	height: auto;
+/* 	max-height: 100%; */
 }
