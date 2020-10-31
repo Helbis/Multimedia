@@ -2,66 +2,90 @@
 <html>
 
 <head>
-  <title>Stud 001 - Filip Helbig ✋</title>
+    <title>Stud 001 - Filip Helbig ✋</title>
 
-  <!-- Meta info -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Meta info -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-  <link rel="manifest" href="./favicon/site.webmanifest">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
 
-  <!-- Styles -->
-	<link rel="stylesheet" href="./css/small_screen.css">
-  <link rel="stylesheet" media="screen and (min-width: 900px)" href="./css/main.css">
-	<link rel="stylesheet" media="screen and (min-width: 1400px)" href="./css/big_screen.css">
-	<!-- Styles with hovering -->
-	<link rel="stylesheet" media="screen and hover" href="./css/hoverable/small_screen_has_cursor.css">
-	<link rel="stylesheet" media="screen and hover and (min-width: 900px)" href="./css/hoverable/main_screen_has_cursor.css">
-	<link rel="stylesheet" media="screen and hover and (min-width: 1400px)" href="./css/hoverable/big_screen_has_cursor.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main_hoverable.css">
 
 </head>
 
 <body>
-  <div class="grid-container">
-    <div class="grid-item gi_1">
-			<img class="profilePic" src="./sources/profilowe_calpe.jpg" alt="Profile Photo taken in Spain, Calpe">
-		</div>
-		<div class="grid-item gi_2">B</div>
-    <div class="grid-item gi_3">C</div>
-    <div class="grid-item gi_4">
-			<table>
-				<!-- <thead>
-					<tr>
-						<th>Homework number</th>
-					</tr>
-					<tr>
-						<th>Homework number</th>
-					</tr>
-					<tr>
-						<th>Homework number</th>
-					</tr>
+    <h1 class="centered_header">Stud 001 - Filip Helbig</h1>
 
-				</thead> -->
-				<tbody>
-					<tr>
-						<th>Homework number</th>
-						<th>Homework name</th>
-						<th>Description</th>
-					</tr>
-					<tr>
-						<td>1</td>
-						<td>2</td>
-						<td>lol</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-  </div>
+    <img class="profilePic" src="./sources/profilowe_calpe.jpg" alt="profilowe_calpe">
 
+	<article class="CV">
+        <h3>Curriculum Vitae</h3>
+        <p class="p1">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h3>Hobby</h3>
+        <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+
+    <hr>
+
+    <div class="centered_table">
+
+        <table>
+            <caption>Homework</caption>
+            <thead>
+                <th>#</th>
+                <th>Name</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <template id="table_record">
+                    <tr>
+                        <td class="table_pos">{{pos}}</td>
+                        <td class="table_name">{{name}}</td>
+                        <td class="table_description">{{description}}</td>
+                    </tr>
+                </template>
+
+                <tr>
+                    <td class="table_pos">1</td>
+                    <td class="table_name">Galeria</td>
+                    <td class="table_description">Statyczny HTML & CSS</td>
+                </tr>
+                <tr>
+                    <td class="table_pos">2</td>
+                    <td class="table_name">Strony o herbacie</td>
+                    <td class="table_description">Strona o herbatach</td>
+                </tr>
+                <tr>
+                    <td class="table_pos">3</td>
+                    <td class="table_name">Galeria php</td>
+                    <td class="table_description">Wykorzystanie połączenia z serwerem za pomocą PHP</td>
+                </tr>
+                <tr>
+                    <td class="table_pos">4</td>
+                    <td class="table_name">{{name}}</td>
+                    <td class="table_description">{{description}}</td>
+                </tr>
+                <tr>
+                    <td class="table_pos">5</td>
+                    <td class="table_name">{{name}}</td>
+                    <td class="table_description">{{description}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>

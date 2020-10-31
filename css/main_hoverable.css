@@ -1,0 +1,9 @@
+h1.centered_header:hover, .profilePic:hover{
+	filter: drop-shadow(3rem 2rem 2rem grey);
+	border: var(--my_light_pink, deeppink) solid 2px;
+}
+
+tbody tr:hover{
+	background-color: var(--my_dark_pink, pink);
+	color: white;
+}
