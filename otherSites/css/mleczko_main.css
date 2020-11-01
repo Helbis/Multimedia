@@ -18,4 +18,6 @@ tbody tr td{
 	padding: 4px;
 	background-color: lightgoldenrodyellow;
 	border: black solid 1px;
+
+	text-align: center;
 }
