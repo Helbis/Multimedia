@@ -1,0 +1,16 @@
+article{
+	margin: auto;
+	padding: 1rem;
+
+	border: black 1px;
+	border-style: inset;
+
+	background-color: burlywood;
+
+	max-width: 40rem;
+}
+
+h3{
+	padding: 1rem;
+
+}
