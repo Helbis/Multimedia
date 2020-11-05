@@ -1,16 +1,32 @@
-article{
+body{
+	background: lightyellow;
+
+	max-width: 80%;
 	margin: auto;
-	padding: 1rem;
 
-	border: black 1px;
-	border-style: inset;
-
-	background-color: burlywood;
-
-	max-width: 40rem;
 }
 
-h3{
-	padding: 1rem;
+main{
+/* 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 40rem; */
+}
 
+p.topPtag{
+	background: yellow;
+	text-align: center;
+	margin: 0;
+}
+a.topAtag{
+	text-align: right;
+}
+
+.podstawowe{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-basis: 50rem;
+
+	max-width: 40rem;
 }

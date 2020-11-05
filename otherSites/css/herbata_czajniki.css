@@ -1,0 +1,32 @@
+body{
+	background: #fff49f;
+	margin: 0;
+	padding: 1rem 10rem 0 10rem;
+
+	color: #520188;
+}
+
+nav.nav_back, h2{
+	text-align: left;
+}
+nav.nav_back a img{
+	padding-left: 1.5rem
+}
+
+caption{
+	text-align: right;
+}
+
+table{
+	margin: auto;
+
+	text-align: center;
+	background: #ffdf60;
+}
+table, td{
+	padding: 4px;
+	border: 1px solid black;
+}
+td.td_czajnik{
+	background-image: url("./../sources/herbata/tlo.jpg");
+}
