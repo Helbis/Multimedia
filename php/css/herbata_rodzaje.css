@@ -1,0 +1,51 @@
+body{
+	background: lightgreen;
+
+	margin: auto;
+	padding: 1rem;
+}
+
+header.topBar, nav.links, article{
+	margin: auto;
+	padding: 1rem;
+
+	max-width: 50rem;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+header.topBar > * {
+	margin: auto;
+}
+img[alt="roslina.jpg"]{
+	max-height: 200px;
+}
+
+nav.links a{
+	margin: auto;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	max-width: 40rem;
+}
+article h3{
+	padding: 0.1rem;
+}
+article a{
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+article:hover{
+	box-shadow: 0 0 20px 1px black;
+}
+
+a:hover{
+	filter: hue-rotate(90deg);
+}

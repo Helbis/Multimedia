@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Rodzaje herbat 🍵</title>
+
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="./../../../favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./../../../favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./../../../favicon/favicon-16x16.png">
+		<link rel="manifest" href="./../../../favicon/site.webmanifest">
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="./../../css/herbata_rodzaje.css">
+	</head>
+	<body>
+
+		<main>
+			<header id="topBar" class="topBar">
+				<nav class="nav_back">
+					<a href="./../../herbata.html">Strona główna</a><br>
+					<a href="./../../herbata.html">
+						<img src="./../../sources/herbata/back.gif" alt="◀️">
+					</a>
+				</nav>
+
+				<h2>Rodzaje herbat</h2>
+
+				<img src="./../../sources/herbata/roslina.jpg" alt="roslina.jpg">
+			</header>
+
+			<nav class="links">
+				<a href="#tea_white">Biała</a>
+				<a href="#tea_green">Zielona</a>
+				<a href="#tea_oolong">Oolong</a>
+				<a href="#tea_black">Czarna</a>
+				<a href="#tea_yerba_mate">Yerba Mate</a>
+				<a href="#tea_pu_erh">Pu-Erh</a>
+				<a href="#tea_rooibos">Rooibos</a>
+			</nav>
+
+			<template id="teaID">
+				<article class="tea">
+					<h3>{{name}}</h3>
+					<p>{{text}}</p>
+					<a href="#topBar">
+						<img src="./../../sources/herbata/powrot.gif" alt="powrot.gif">
+					</a>
+				</article>
+			</template>
+
+			<article id="tea_white" class="tea white">
+				<div class="text">
+					<h3>Herbata biała</h3>
+					<p>
+						Są to rzadko spotykane herbaty poddane tylko procesowi więdnięcia i suszenia,
+						produkowane w Chinach i Sri Lance.
+						Np. chińska herbata Yin Zhen wyśmienita, ale droga.
+						Biała herbata produkowana jest także w Indiachw rejonie Darjeeling,
+						jako jedne z najlepszych herbat z tego regionu.
+						Herbata Poobong zrywana jest wg starych tradycji, dwa listki i pączek przed wschodem słońca.
+						Dają napar o kolorze słomy.
+					</p>
+				</div>
+				<a href="#topBar">
+					<img src="./../../sources/herbata/powrot.gif" alt="powrot.gif">
+				</a>
+			</article>
+
+			<article id="tea_green" class="tea green">
+				<div class="text">
+					<h3>Herbata zielona</h3>
+					<p>
+						Jest to herbata, której świeżo zerwane liście pozostawia się do przeschnięcia, a następnie w wyniku obróbki cieplnej powstrzymuje się proces fermentacji.
+						Dlatego też herbaty te są inaczej nazywane niefermentowanymi. Produkcja odbywa się mechanicznie, ale w wielu rejonach Chin stosuje się metody ręczne, zwłaszcza do produkcji najlepszych herbat.
+						Herbata zielona do XX wieku była jedynym napojem herbacianym, ale dzięki Anglikom, dla których czarna herbata okazała się lepsza, w Europie zapomniano o tym typie herbat. Obecnie zielona herbata przeżywa renesans, zwłaszcza w krajach Europy Zachodniej i USA.
+						Wielkie firmy produkujące i sprzedające herbaty promują zieloną herbatę jako najbardziej naturalną z wszystkich herbat, zawierającą wiele związków sprawiających, że herbaty te wpływaja kożystnie na organizm.
+						Przy pierwszym łyku tej herbaty można stwierdzić, że nie jest ona dużo warta i zniechęcić. Nie można jednak rezygnować, bo im więcej jej pijemy, tym bardziej nam będzie smakować.
+						Zielone herbaty mają barwę żółtozieloną.
+					</p>
+				</div>
+				<a href="#topBar">
+					<img src="./../../sources/herbata/powrot.gif" alt="powrot.gif">
+				</a>
+			</article>
+
+			<article id="tea_oolong" class="tea oolong">
+				<div class="text">
+					<h3>Herbata Oolong</h3>
+					<p>
+						Herbata ta inaczej jest zwana półfermentowaną i produkowana jest w Chinach i Taiwanie. Liście na oolongi zaraz po zbiorze są poddawane obróbce.
+						Proces fermentacji jest krótszy niż w przypadku herbat czarnych, odbywa się w ok. 20% a liście pozostają całe, nie są połamane przez zwijanie.
+						Natomiast oolongi z Taiwanu poddawane są procesowi fermentacji w 60 %, dlatego są ciemniejsze i dają ciemniejszy napar.
+						Pomiędzy herbatą zieloną a oolongiem jest puszong, czyli inny rodzaj herbaty o jeszcze krótszej fermentacji, który jest wykorzystywany jest do produkcji herbat jaśminowych i in. aromatyzowanych.
+					</p>
+				</div>
+				<a href="#topBar">
+					<img src="./../../sources/herbata/powrot.gif" alt="powrot.gif">
+				</a>
+			</article>
+
+			<article id="tea_black" class="tea black">
+				<div class="text">
+					<h3>Herbata czarna</h3>
+					<p>
+						Ten rodzaj herbaty znany jest wszystkim, jest to całkowicie sfermentowana herbata co nadaje jej intensywnej barwy, smaku i aromatu.
+						W zależności od regionu w jakim są produkowane istnieją różnice w metodach obróbki. Zawsze jednak istnieją cztery podstawowe etapy: więdnięcie, zwijanie, fermentowanie i suszenie.
+						Liście do więdnięcia są rozkładane, w przypadku uzyskiwania lepszych odmian w cieniu, tak długo, aż będą miękkie, aby przy zwijaniu nie popękały. Następnie liście są zwijane i rozkładane na trzy i pół godziny w wilgotnym powietrzu, by wchłonęły tlen. Barwa liścia zmienia się z zielonej na rdzawoczerwoną. Zwijanie w niektórych fabrykach odbywa się jeszcze ręcznie, ale większość używa maszyn.
+					</p>
+				</div>
+				<a href="#topBar">
+					<img src="./../../sources/herbata/powrot.gif" alt="powrot.gif">
+				</a>
+			</article>
+
+			<article id="tea_yerba_mate" class="tea yerba_mate">
+				<div class="text">
+					<h3>Yerba Mate</h3>
+					<p>
+						Ta pochodząca z Argentyny herbata najpierw znana była Indianom Guarani, którzy pili napar z liści ostrokrzewu paragwajskiego. Nazwę Yerba mate zawdzięcza najprawdopodobniej Jezuitom, którzy zaczerpnęli ją z łaciny.
+						Herbatę mate produkuje się zieloną i paloną. Jest ona kolejną herbatą o leczniczych właściwościach, dzięki temu, że posiada dużo witamin i minerałów, takich jak sód, potas, magnez czy wapń. Ponadto korzystnie wpływa na cały organizm, zwłaszcza na układ nerwowy, wzmacnia ciało i umysł, pomaga zwalczyć stres i zmęczenie. Może też służyć jako napój ożywczy.
+					</p>
+				</div>
+				<a href="#topBar">
+					<img src="./../../sources/herbata/powrot.gif" alt="powrot.gif">
+				</a>
+			</article>
+
+			<article id="tea_pu_erh" class="tea pu_erh">
+				<div class="text">
+					<h3>Pu-Erh</h3>
+					<p>
+						Mało znana u nas czerwona herbata pochodzi z Chin i uprawiana jest w prowincji Yunnan, gdzie znana jest od 1700 lat. Znana jest przede wszystkim ze swojego wspaniałego, niepowtarzalnego smaku i aromatu, otrzymanego w wyniku procesowi fermentacji, a także ze względu na właściwości lecznicze.
+						Pu-Erh dojrzewa w ciemnych grotach i jest herbatą, która nie musi być spożywana jak najszybciej po zbiorze. Taka herbata jest lepsza jakościowo, ale nie dodaje jej to zdrowotnych właściwości
+					</p>
+				</div>
+				<a href="#topBar">
+					<img src="./../../sources/herbata/powrot.gif" alt="powrot.gif">
+				</a>
+			</article>
+
+			<article id="tea_rooibos" class="tea rooibos">
+				<div class="text">
+					<h3>Rooibos</h3>
+					<p>
+						Rooibos nie jest typową herbatą, wytworzoną z krzewu z pochodzącego z rodziny Camellia, produkowany jest z czerwonokrzewu (Aspalathus linearis), znany jest również pod nazwą Redbush, Redbos.
+						Herbata ta znana jest stosunkowo krótko, jej początki przypadają na pierwsze lata XX wieku, kiedy to Rosjanin Benjamin Ginsberg pierwsz zainteresował się krzewem uprawianym w górach Cedar w Afryce Południowej, niedaleko Kapsztadu. Ponieważ pochodził z rodziny handlującej herbatą, potrafił wprowadzić i wypromować nową herbatę na rynek. Z czasem rozpoznano wartość Rooibosa i opracowano metody polowej uprawy tej herbaty.
+						Po kryzysie wywołanym II wojną światową nastąpiło załamanie rynku i wielu plantatorów splajtowało. Doprowadziło to do powstania w 1954 roku Redbos-Tea-Control-Board, która nadzorowała produkcje herbaty w Afryce Południowej. W 1994 roku wszystkie plantacje zostały sprywatyzowane.
+						Krzew czerwonokrzewu osiąga wysokość do 2 metrów, liście przypominają igły sosnowe, kwitnie na żółto w październiku. Gałęzie zbierane są od lata do wczesnej jesieni.
+						Popularność Rooibosowi przyniosło odkrycie właściwości zdrowotnych.
+						Herbata ta jest: bogata w minerały, m.in. wapń, sód i magnez; bogata w antyutleniacze; nie zawiera kofeiny; niska zawartość garbników;
+						Ze względu na brak kofeiny, herbatę rooibos można pić w dużych ilościach oraz bez obawy wieczorem, przed zaśnięciem. Nadaje się też znakomicie jako herbata uspokajająca, pomaga przy bólach głowy. Herbata ta nie zawiera konserwantów ani barwników.
+						Może bez przeszkód być podawana dzieciom, pomaga też przy schorzeniach jelit. Zawiera dużo fluoru, toteż korzystnie wpływa na szkliwo zębowe i zmniejsza podatność jamy ustnej na infekcje.
+					</p>
+				</div>
+				<a href="#topBar">
+					<img src="./../../sources/herbata/powrot.gif" alt="powrot.gif">
+				</a>
+			</article>
+		</main>
+	</body>
+</html>

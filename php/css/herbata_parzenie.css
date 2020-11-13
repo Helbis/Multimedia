@@ -1,0 +1,39 @@
+body{
+	background: lightgreen;
+	margin: auto;
+	padding: 1rem;
+}
+
+.nav_back{
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+article.parzenie{
+	margin: auto;
+	padding: auto;
+	max-width: 80%;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+article.parzenie > * {
+	margin: auto;
+}
+article.parzenie img{
+	margin-left: 0;
+}
+
+p{
+	flex-basis: 60rem;
+	flex-grow: 1;
+
+	max-width: 50rem;
+	margin-left: 1rem;
+}
+
+div.link_orig{
+	margin-right: 0;
+	margin-left: auto;
+}
